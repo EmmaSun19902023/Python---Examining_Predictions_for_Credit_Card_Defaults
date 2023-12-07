@@ -5,7 +5,7 @@ Created a function which utilizes StratifiedKFold with 4 folds, a pipeline incor
 
 The process involves iterating through 10 different random states. After preprocessing, the function fits the model and then calculates the F-beta test score for each iteration, ultimately returning lists containing 10 test scores and the corresponding 10 best models.
 
-Decision Tree stands out as the best performer based on the combination of metrics. It achieved a mean of test score value of 94.01%, indicating a strong ability to balance precision and recall. Additionally, the model demonstrated a relatively low standard deviation of test score value of 0.0030, resulting in a Coefficient of Variation of test score value of 0.0032. The Number of standard deviation above baseline value of 279.63 further emphasizes the model's superiority, surpassing the baseline accuracy by nearly 280 standard deviations. 
+Decision Tree stands out as the best performer based on the combination of metrics. It achieved a mean of test score value of 94.01%, indicating a strong ability to balance precision and recall. Additionally, the model demonstrated a relatively low standard deviation of test score value of 0.0030, resulting in a coefficient of variation of test score value of 0.0032. The number of standard deviation above baseline value of 279.63 further emphasizes the model's superiority, surpassing the baseline accuracy by nearly 280 standard deviations. 
 
 Required library versions:
 
