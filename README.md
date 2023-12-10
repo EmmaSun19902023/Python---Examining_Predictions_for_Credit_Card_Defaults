@@ -1,11 +1,11 @@
 # Examining_Predictions_for_Credit_Card_Defaults_Project
 Developing Machine Learning models and Examining Predictions based on American Express's credit card default dataset.
 
-Created a function which utilizes StratifiedKFold with 4 folds, a pipeline incorporating preprocessor and machine learning algorithm, GridSearchCV for hyperparameter tuning and the F-beta score evaluation metric. This function facilitates the exploration of various algorithms, including Logistic Regression, Decision Tree, Random Forest and XGBoost.
+A function is created to combine all the steps, including a pipeline containing preprocessor and machine learning algorithms, GridSearchCV for hyperparameter tuning and F-beta score as evaluation metric. This function facilitates exploring various algorithms such as logistic regression, decision tree and random forest. 
 
-The process involves iterating through 10 different random states. After preprocessing, the function fits the model and then calculates the F-beta test score for each iteration, ultimately returning lists containing 10 test scores and the corresponding 10 best models.
+In loops through ten random states, the model is fitted after preprocessing and splitting, and then the F-beta test score is calculated. At the end of iterations, the function returns a list of ten test scores along with ten best models for each algorithm.
 
-Decision Tree stands out as the best performer based on the combination of metrics. It achieved a mean of test score value of 94.01%, indicating a strong ability to balance precision and recall. Additionally, the model demonstrated a relatively low standard deviation of test score value of 0.0030, resulting in a coefficient of variation of test score value of 0.0032. The number of standard deviation above baseline value of 279.63 further emphasizes the model's superiority, surpassing the baseline accuracy by nearly 280 standard deviations. 
+Decision Tree stands out as the best in performance based on the combination of metrics. It achieved a mean of test score value of 94.01%, indicating a strong ability to balance precision and recall. Additionally, the model demonstrated a relatively low standard deviation of test score value of 0.0030, resulting in a coefficient of variation of test score value of 0.0032. The number of standard deviation above baseline value of 279.63 further emphasizes the model's superiority, surpassing the baseline accuracy by nearly 280 standard deviations. 
 
 Required library versions:
 
