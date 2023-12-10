@@ -1,5 +1,5 @@
 # Examining_Predictions_for_Credit_Card_Defaults_Project
-Developing Machine Learning models and Examining Predictions based on American Express's credit card default dataset.
+Developing machine learning models and examining predictions based on American Express's credit card default dataset.
 
 A function is created to combine all the steps, including a pipeline containing preprocessor and machine learning algorithms, GridSearchCV for hyperparameter tuning and F-beta score as evaluation metric. This function facilitates exploring various algorithms such as logistic regression, decision tree and random forest. 
 
